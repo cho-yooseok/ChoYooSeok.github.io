@@ -8,19 +8,28 @@ version: 2
 # Personal info
 name: 조유석
 title: Backend Engineer
+
 email: bluesbeat93@gmail.com
 # email_title: Email (Email title override)
-phone: 수정연습
+
 # phone_title: Phone (Phone title override)
+email_title: Email
+
+phone: 010-7357-1328
+# phone_title: Phone (Phone title override)
+phone_title: Phone
+
 website: Your website (eg. https://google.com)(optional) 여기 수정해야됨
 # website_title: Web (Website title override)
+website_title: Blog
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
+
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  cho-yooseok
 stackoverflow_username: "00000001"
 dribbble_username: jekyll
 facebook_username: jekyll
@@ -50,7 +59,7 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/landscape-trees.jpg
 about_content: | # this will include new lines to allow paragraphs
   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
@@ -60,14 +69,15 @@ about_content: | # this will include new lines to allow paragraphs
     - <a href="google.com">Links</a>
     - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
+
 content:
-  - title: Projects # Title for the section
+  - title: Projects 여기에 제목을 적어보아요 # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
+        title: Project name 카카오 뱅크
         link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         link_text: Link Text
         additional_links:
@@ -81,18 +91,24 @@ content:
           Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
           Description about the work on/with the project
+          여기에 내용을 적어적어적어
+          
+
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
+        title: Company name  회사이름 적어적어
+        sub_title: Job title  서브타이틀백엔드엔지니어 적어적어
+        caption: Date Range (eg. November 2016 - present) 재직 날짜 적어적어
         link: Link to company (optional)
         quote: >
-          Short description of the company (optional)
+          Short description of the company (optional) 이미 모두의 경험
         description: | # this will include new lines to allow paragraphs
           Description of role
+          하이하이 내용을 드리부어
+          
+
   - title: Education
     layout: list
     content:
@@ -110,6 +126,7 @@ content:
       This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
       Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+
 
 # Footer
 footer_show_references: true
