@@ -6,7 +6,7 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: 조유석
+name: 조유석입니다
 title: Backend Engineer
 
 email: bluesbeat93@gmail.com
